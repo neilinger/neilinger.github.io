@@ -24,11 +24,12 @@ github                   : [metadata]
 url                      : "https://neilinger.github.io"
 baseurl                  : #
 repository               : "neilinger/neilinger.github.io"
-teaser                   : "/assets/images/background_5to3.png"
+teaser                   : #
 logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -113,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Neil Scholten"
-  avatar           : "https://en.gravatar.com/userimage/1605972/ef596a43ec32870f0b17d444b453c837.jpeg"
-  bio              : "I accelerate, enable and navigate people &| organisations &| things in tech"
+  avatar           : "/assets/images/avatar_2013_small.jpg" #"https://en.gravatar.com/userimage/1605972/ef596a43ec32870f0b17d444b453c837.jpeg"
+  bio              : "I accelerate, enable and navigate<br/>people &| organisations &| things<br/>in tech"
   location         : "Hamburg, Germany"
   email            : "neil+githubpages@scholten.io"
   links:
@@ -127,15 +128,15 @@ author:
     - label: "Playstation"
       icon: "fab fa-fw fa-playstation"
       url: "https://my.playstation.com/profile/neilinger"
-    - label: "Steam"
-      icon: "fab fa-fw fa-steam-square"
-      url: "https://steamcommunity.com/id/neil-scholten/"
+#    - label: "Steam"
+#      icon: "fab fa-fw fa-steam-square"
+#      url: "https://steamcommunity.com/id/neil-scholten/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/neil.scholten"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/neilinger/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://www.instagram.com/neilinger/"
 
 # Site Footer
 footer:
@@ -149,7 +150,9 @@ footer:
     - label: "Playstation"
       icon: "fab fa-fw fa-playstation"
       url: "https://my.playstation.com/profile/neilinger"
-
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/neil.scholten"
 
 # Reading Files
 include:
@@ -290,3 +293,11 @@ defaults:
       comments: false
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      header:
+        image: "/assets/images/header_image.png"
