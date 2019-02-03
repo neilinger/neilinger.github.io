@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Neil Scholten"
 description              : "Got stuck?"
 github                   : [metadata]
-url                      : "https://neilinger.github.io"
+url                      : "https://scholten.io"
 baseurl                  : #
 repository               : "neilinger/neilinger.github.io"
 teaser                   : #
