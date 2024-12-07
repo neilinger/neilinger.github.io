@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-include-cache", "~> 0.1.0"
   gem 'jekyll-gravatar'
+  gem 'jekyll-redirect-form'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
